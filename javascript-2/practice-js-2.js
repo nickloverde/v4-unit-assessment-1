@@ -11,6 +11,8 @@
 
 //CODE HERE
 
+let gitDefinition = "Git is a version control device that works on your computer to allow you to be able to go back and see different versions of your work."
+
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,6 +20,8 @@
 */
 
 //CODE HERE
+
+let gitHubDefinition = "GitHub is where you store your code you save using git."
 
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
@@ -35,6 +39,11 @@
 
 //CODE HERE
 
+let init = {
+    description: "This command initializes a repository",
+    code: "git init"
+}
+
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -42,6 +51,11 @@
 */
 
 //CODE HERE
+
+let clone = {
+    description: "A clone command takes an already existing repository and pushes it onto your machine",
+    code: "git clone"
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -51,6 +65,11 @@
 
 //CODE HERE
 
+let status = {
+    description: "This allows you to see your staging area and determine what files need to be added, committed, and pushed",
+    code: "git status"
+}
+
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
@@ -58,6 +77,11 @@
 */
 
 //CODE HERE
+
+let add = {
+    description: "Git add is the first step in the staging process. It basically says you're ready to take a snapshot of your code",
+    code: "git add"
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -67,6 +91,11 @@
 
 //CODE HERE
 
+let commit = {
+    description: "Git commit is similar to saving a file on your computer. But you're saving to git",
+    code: "git commit -m"
+}
+
 //////////////////PROBLEM 8////////////////////
 /*
     Create an object called 'addRemote' with 'description' and 'code' properties
@@ -75,6 +104,11 @@
 
 //CODE HERE
 
+let addRemote = {
+    description: "This allows you to add a repository that's not on your local machine",
+    code: "git remote add origin"
+}
+
 //////////////////PROBLEM 9////////////////////
 /*
     Create an object called 'push' with 'description' and 'code' properties 
@@ -82,3 +116,8 @@
 */
 
 //CODE HERE
+
+let push = {
+    description: "Git push sends or pushes all the changes you've made to your github account",
+    code: "git push"
+}
